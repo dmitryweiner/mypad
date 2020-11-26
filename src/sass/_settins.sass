@@ -1,0 +1,68 @@
+// Main settings
+.container
+  width: 1410px
+  margin: 0 auto
+
+
+// Classes
+.row
+  display: flex
+  flex-direction: row
+.row-sp
+  justify-content: space-between
+.row-sa
+  justify-content: space-around
+.row-center
+  align-items: center
+.column
+  display: flex
+  flex-direction: column
+
+
+// Fonts
+@font-face
+  font-family: 'Gilroy'
+  src: url('/src/fonts/Gilroy-Regular.ttf') format('truetype')
+  font-weight: 400
+  font-style: normal
+@font-face
+  font-family: 'Gilroy'
+  src: url('/src/fonts/Gilroy-Medium.ttf') format('truetype')
+  font-weight: 500
+  font-style: normal
+@font-face
+  font-family: 'Gilroy'
+  src: url('/src/fonts/Gilroy-Semibold.ttf') format('truetype')
+  font-weight: 600
+  font-style: normal
+@font-face
+  font-family: 'Gilroy'
+  src: url('/src/fonts/Gilroy-Bold.ttf') format('truetype')
+  font-weight: 700
+  font-style: normal
+@font-face
+  font-family: 'Gilroy'
+  src: url('/src/fonts/Gilroy-Black.ttf') format('truetype')
+  font-weight: 900
+  font-style: normal
+@font-face
+  font-family: 'Gilroy'
+  src: url('/src/fonts/Gilroy-Heavy.ttf') format('truetype')
+  font-weight: 1000
+  font-style: normal
+
+// Mixins
+@mixin regular
+  font-weight: 400
+@mixin medium
+  font-weight: 500
+@mixin semiBold
+  font-weight: 600
+@mixin bold
+  font-weight: 700
+@mixin black
+  font-weight: 900
+@mixin heavy
+  font-weight: 1000
+
+// Component

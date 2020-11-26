@@ -1,0 +1,113 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+div {
+  box-sizing: border-box; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.container {
+  width: 1410px;
+  margin: 0 auto; }
+
+.row {
+  display: flex;
+  flex-direction: row; }
+
+.row-sp {
+  justify-content: space-between; }
+
+.row-sa {
+  justify-content: space-around; }
+
+.row-center {
+  align-items: center; }
+
+.column {
+  display: flex;
+  flex-direction: column; }
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("/src/fonts/Gilroy-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+@font-face {
+  font-family: "Gilroy";
+  src: url("/src/fonts/Gilroy-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+@font-face {
+  font-family: "Gilroy";
+  src: url("/src/fonts/Gilroy-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal; }
+@font-face {
+  font-family: "Gilroy";
+  src: url("/src/fonts/Gilroy-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal; }
+@font-face {
+  font-family: "Gilroy";
+  src: url("/src/fonts/Gilroy-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal; }
+@font-face {
+  font-family: "Gilroy";
+  src: url("/src/fonts/Gilroy-Heavy.ttf") format("truetype");
+  font-weight: 1000;
+  font-style: normal; }
+body {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 500; }
+
+.pads {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  margin-top: 25px; }
+
+.pad {
+  height: 150px;
+  width: 150px;
+  background: white;
+  border: none;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+  margin-right: 15px;
+  margin-bottom: 15px; }
+
+.green {
+  background: #77FFA5; }
+
+/*# sourceMappingURL=style.css.map */
