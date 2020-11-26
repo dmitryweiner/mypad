@@ -105,9 +105,18 @@ body {
   border: none;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
   margin-right: 15px;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  position: relative; }
 
 .green {
   background: #77FFA5; }
+
+.flex {
+  height: 100vh;
+  min-height: 650px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 /*# sourceMappingURL=style.css.map */
