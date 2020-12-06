@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 
 const Pad = (props) => {
 
@@ -7,6 +7,20 @@ const Pad = (props) => {
     audio.src = props.path;
     audio.play();
   }
+
+  useEffect(() => {
+    const pushBtn = (event) => {
+      if (event.keyCode === props.code) {
+        let audio = new Audio();
+        audio.src = props.path;
+        audio.play();
+      }
+    };
+    window.addEventListener('keydown', pushBtn);
+    return () => {
+      window.removeEventListener('keydown', pushBtn);
+    };
+  }, []);
 
   return(
     <div>

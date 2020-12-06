@@ -16,8 +16,6 @@ for (let i = 0; i < keypads.pads.length; i++) {
   }
 }
 
-console.log(keypads.pads)
-
 const Pads = () => {
 
   return(
