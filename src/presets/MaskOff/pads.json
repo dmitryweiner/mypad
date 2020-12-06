@@ -1,0 +1,64 @@
+{
+  "pads": [
+    {
+      "class": "pad green",
+      "keyCode": 0,
+      "path": ""
+    },
+    {
+      "class": "pad",
+      "keyCode": 0,
+      "path": ""
+    },
+    {
+      "class": "pad orange",
+      "keyCode": 0,
+      "path": ""
+    },
+    {
+      "class": "pad",
+      "keyCode": 0,
+      "path": ""
+    },
+    {
+      "class": "pad",
+      "keyCode": 0,
+      "path": ""
+    },
+    {
+      "class": "pad",
+      "keyCode": 0,
+      "path": ""
+    },
+    {
+      "class": "pad",
+      "keyCode": 0,
+      "path": ""
+    },
+    {
+      "class": "pad",
+      "keyCode": 0,
+      "path": ""
+    },
+    {
+      "class": "pad",
+      "keyCode": 0,
+      "path": ""
+    },
+    {
+      "class": "pad",
+      "keyCode": 0,
+      "path": ""
+    },
+    {
+      "class": "pad",
+      "keyCode": 0,
+      "path": ""
+    },
+    {
+      "class": "pad",
+      "keyCode": 0,
+      "path": ""
+    }
+  ]
+}

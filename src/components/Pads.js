@@ -1,40 +1,38 @@
-import React, {useEffect} from "react";
+import React from "react";
+import Pad from "./Pad";
+import keypads from '../presets/MaskOff/pads.json';
 
-let audio = new Audio();
-const PlaySound = () => {
-  audio.src = samples[0].default;
-  audio.play();
-}
 
 function importAll(r) {
   return r.keys().map(r);
 }
 const samples = importAll(require.context('../presets/MaskOff', false, /\.(wav|mp3)$/));
 
+for (let i = 0; i < keypads.pads.length; i++) {
+  for (let j = 0; j < samples.length; j++) {
+    if (i === j) {
+      keypads.pads[i].path = samples[j].default;
+    }
+  }
+}
+
+console.log(keypads.pads)
 
 const Pads = () => {
 
-  useEffect(() => {
-    const handleEsc = (event) => {
-      if (event.keyCode === 103) {
-        PlaySound();
-      }
-    };
-    window.addEventListener('keydown', handleEsc);
-
-    return () => {
-      window.removeEventListener('keydown', handleEsc);
-    };
-  }, []);
-
-
   return(
-    <div className="flex">
-      <div className="column">
-        <h1>MyPads</h1>
-        <div className="pads">
-          <button className="pad" onClick={PlaySound}> </button>
-        </div>
+    <div className="column">
+      <h1>MyPads</h1>
+      <div className="pads">
+        {
+          keypads.pads.map((item, index) => {
+            return <Pad key={index}
+                        class={item.class}
+                        code={item.keyCode}
+                        path={item.path}
+            />
+          })
+        }
       </div>
     </div>
   )
