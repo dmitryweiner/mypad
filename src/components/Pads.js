@@ -20,8 +20,8 @@ for (let i = 0; i < keypads.pads.length; i++) {
 const Pads = () => {
 
   return(
-    <div className="column">
-      <h1>MyPads</h1>
+    <div className="column center">
+      <h1>Drum Pads</h1>
       <div className="pads">
         {
           keypads.pads.map((item, index) => {

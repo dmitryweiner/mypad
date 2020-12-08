@@ -92,6 +92,13 @@ body {
   font-family: "Gilroy", sans-serif;
   font-weight: 500; }
 
+.center {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 .pads {
   display: flex;
   flex-wrap: wrap;
@@ -102,16 +109,27 @@ body {
   height: 150px;
   width: 150px;
   background: white;
-  border: 2px solid black;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
   margin-right: 15px;
   margin-bottom: 15px;
-  position: relative; }
+  position: relative;
+  border: none;
+  border-radius: 10px; }
+  .pad:hover {
+    background: white; }
+  .pad:focus {
+    outline: none; }
 
 .green {
-  background: #77FFA5; }
+  background: radial-gradient(circle, #E0F407, #62C700); }
 
 .orange {
-  background: #ff9b00; }
+  background: radial-gradient(circle, #FEC601, #FD7502); }
+
+.blue {
+  background: radial-gradient(circle, #03D3F5, #0187E3); }
+
+.violet {
+  background: radial-gradient(circle, #DC69F0, #A121D5); }
 
 /*# sourceMappingURL=style.css.map */

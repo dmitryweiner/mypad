@@ -7,67 +7,67 @@
       "player": 1
     },
     {
-      "class": "pad",
+      "class": "pad green",
       "keyCode": 75,
       "path": "",
       "player": 1
     },
     {
-      "class": "pad orange",
+      "class": "pad green",
       "keyCode": 79,
       "path": "",
       "player": 1
     },
     {
-      "class": "pad",
+      "class": "pad green",
       "keyCode": 188,
       "path": "",
       "player": 1
     },
     {
-      "class": "pad",
+      "class": "pad green",
       "keyCode": 76,
       "path": "",
       "player": 1
     },
     {
-      "class": "pad",
+      "class": "pad green",
       "keyCode": 80,
       "path": "",
       "player": 1
     },
     {
-      "class": "pad",
+      "class": "pad blue",
       "keyCode": 190,
       "path": "",
       "player": 2
     },
     {
-      "class": "pad",
+      "class": "pad orange",
       "keyCode": 186,
       "path": "",
       "player": 1
     },
     {
-      "class": "pad",
+      "class": "pad blue",
       "keyCode": 219,
       "path": "",
       "player": 2
     },
     {
-      "class": "pad",
+      "class": "pad blue",
       "keyCode": 191,
       "path": "",
       "player": 2
     },
     {
-      "class": "pad",
+      "class": "pad blue",
       "keyCode": 222,
       "path": "",
       "player": 2
     },
     {
-      "class": "pad",
+      "class": "pad blue",
       "keyCode": 221,
       "path": "",
       "player": 2

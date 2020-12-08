@@ -32,6 +32,7 @@ const Pad = (props) => {
   return(
     <div>
       <button className={props.class}
+              onClick={playfromBtn}
       > </button>
     </div>
   )
