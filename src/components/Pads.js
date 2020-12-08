@@ -7,6 +7,7 @@ function importAll(r) {
   return r.keys().map(r);
 }
 const samples = importAll(require.context('../presets/MaskOff', false, /\.(wav|mp3)$/));
+// const samples = importAll(require.context('../presets/ElProblema', false, /\.(wav|mp3)$/));
 
 for (let i = 0; i < keypads.pads.length; i++) {
   for (let j = 0; j < samples.length; j++) {
@@ -28,6 +29,7 @@ const Pads = () => {
                         class={item.class}
                         code={item.keyCode}
                         path={item.path}
+                        player={item.player}
             />
           })
         }

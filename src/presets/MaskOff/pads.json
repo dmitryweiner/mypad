@@ -3,62 +3,74 @@
     {
       "class": "pad green",
       "keyCode": 77,
-      "path": ""
+      "path": "",
+      "player": 1
     },
     {
       "class": "pad",
       "keyCode": 75,
-      "path": ""
+      "path": "",
+      "player": 1
     },
     {
       "class": "pad orange",
       "keyCode": 79,
-      "path": ""
+      "path": "",
+      "player": 1
     },
     {
       "class": "pad",
       "keyCode": 188,
-      "path": ""
+      "path": "",
+      "player": 1
     },
     {
       "class": "pad",
       "keyCode": 76,
-      "path": ""
+      "path": "",
+      "player": 1
     },
     {
       "class": "pad",
       "keyCode": 80,
-      "path": ""
+      "path": "",
+      "player": 1
     },
     {
       "class": "pad",
       "keyCode": 190,
-      "path": ""
+      "path": "",
+      "player": 2
     },
     {
       "class": "pad",
       "keyCode": 186,
-      "path": ""
+      "path": "",
+      "player": 1
     },
     {
       "class": "pad",
       "keyCode": 219,
-      "path": ""
+      "path": "",
+      "player": 2
     },
     {
       "class": "pad",
       "keyCode": 191,
-      "path": ""
+      "path": "",
+      "player": 2
     },
     {
       "class": "pad",
       "keyCode": 222,
-      "path": ""
+      "path": "",
+      "player": 2
     },
     {
       "class": "pad",
       "keyCode": 221,
-      "path": ""
+      "path": "",
+      "player": 2
     }
   ]
 }
