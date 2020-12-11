@@ -6,12 +6,15 @@ body
   +medium
 
 // Pads Component
+.row
+  display: flex
+  justify-content: space-around
+  align-items: center
 .center
   height: 100vh
   width: 100%
   display: flex
   justify-content: center
-  align-items: center
 .pads
   display: flex
   flex-wrap: wrap
@@ -39,3 +42,22 @@ body
   background: radial-gradient(circle, #03D3F5, #0187E3)
 .violet
   background: radial-gradient(circle, #DC69F0, #A121D5)
+
+.playlist
+  height: 350px
+  width: 250px
+  box-shadow: 0 0 30px rgba(black, .05)
+  border-radius: 5px
+  padding: 25px
+  &__title
+    margin-bottom: 20px
+  &__btn
+    margin-top: 15px
+    font-size: 20px
+    text-decoration: none
+    color: rgba(black, 0.5)
+    +semiBold
+    transition: 0.3s
+    &:hover
+      color: rgba(black, 1)
+      transition: 0.3s
