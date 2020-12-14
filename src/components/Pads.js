@@ -11,11 +11,7 @@ const samples = importAll(require.context('../presets/MaskOff', false, /\.(wav|m
 // const samples = importAll(require.context('../presets/ElProblema', false, /\.(wav|mp3)$/));
 
 for (let i = 0; i < presetMask.pads.length; i++) {
-  for (let j = 0; j < samples.length; j++) {
-    if (i === j) {
-      presetMask.pads[i].path = samples[j].default;
-    }
-  }
+  presetMask.pads[i].path = samples[i].default;
 }
 
 const Pads = () => {
